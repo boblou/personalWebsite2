@@ -1,0 +1,35 @@
+---
+layout: page
+title: Projects
+navlevel: header
+navtitle: projects
+cover_url: https://source.unsplash.com/OqtafYT5kTw/1900x1200
+cover_meta: Photo by [Ilya Pavlov](https://unsplash.com/@ilyapavlov)
+position: 200
+---
+
+# ARRTE Radiology Report Classifier
+
+The Automated Radiology Recommendation Tracking System, or ARRTE, is an automated system at Penn that tracks patients who have been given a follow-up recommendation based on radiological imaging. Under Dr. Tessa Cook, I built and trained a classifier to determine whether a radiology text report contained a follow-up recommendation. A log-linear model and natural language processing techniques were used.
+
+# Detecting Antibiotic Resistance with MALDI-TOF
+
+Matrix-assisted laser desorption/ionization - time of flight, or more succinctly MALDI-TOF, is a type of mass spectroscopy; essentially, a laser is used to ionize a sample which is then run through a time of flight mass spectrometer. I conducted research under Dr. Robert Jerris on antimicrobial susceptibility testing and blood culture identification using this technology. By recognizing hydrolyzed antibiotic peaks, it was possible to detect carbapennem resistant bacteria.
+
+Yi J, Lou R, Bricoll J, Widen RH, Silbert S, Jerris RC. (2014) Detection of Carbapenemase Producing Organisms by Matrix Assisted- Laser Desorption Ionization-Time of Flight Mass Spectrometry. Poster presented at ICAAC, Washington, DC.
+
+# NeedSustenance
+
+[NeedSustenance](https://github.com/robert-lou/NeedSustenance) is a website I built that allows users to review restaurants and create collections of restaurants. It also allows the sharing of such reviews and collections. It uses the Ruby on Rails as the framework and MongoDB as the underlying database.
+
+# Effects of Angiotensin II on TSC
+
+Tuberous Sclerosis Complex, or TSC, is a genetic disease that causes tumors to grow in various areas of the body. It has been suggested clinically that blocking the renin-angiotensin system can slow disease progression. Under Dr. John Bissler, I investigated the effects of angiotensin II on a renal cell model of TSC by monitoring the cells' level of intracellular Ca2+ levels and VEGF release.
+
+Siroky BJ, Reichert RJ, Lou R, Kathman E, Bissler JJ. (2012) Role of the Renin-Angiotensin System in TSC Renal Angiomyolipoma Progression. ASN Renal Week 2012.
+
+# Tensegrity
+
+Tensegrity is a structural principle wherein components are isolated from each other and held together by a net of continuous tension. The resulting structure has an ethereal quality that seems to defy gravity. I built such a structure, entitled *Arbor*, with twine and PVC pipe as seen below. A brief report about tensegrity can be found [here](/assets/docs/tensegrity.pdf).
+
+![Arbor by Robert Lou](/assets/img/tensegrity.jpg)
