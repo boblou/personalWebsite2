@@ -1,7 +1,8 @@
 # Welcome to Jekyll!
 
 ##DISQUS AND MATHJAX
-##Remove link formatting on hobbies
+##Remove link formatting on hobbies or not
+##top border
 
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -20,11 +21,11 @@
 title: Robert Lou
 email: robert.lou@uphs.upenn.edu
 description: > # this means to ignore newlines until "baseurl:"
-Robert Lou's personal website.
+  Robert Lou's personal website.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
 color_scheme: github
+
 github_username: robert-lou
 instagram_username: boboolou
 disqus_shortname: rl2595
