@@ -1,8 +1,13 @@
-# Welcome to Jekyll!
-
-##DISQUS AND MATHJAX
-##Remove link formatting on hobbies or not
-##top border
+# UX Concerns
+# -disqus
+# -mathjax
+# -top border (typography.scss -> body)
+# -Remove link formatting on hobbies or not
+# <style>
+#   article a, article a:hover, article a:visited {
+#       border-bottom: 0px solid currentColor;
+#     }
+# </style>
 
 #
 # This config file is meant for settings that affect your whole blog, values

@@ -3,10 +3,11 @@ layout: page
 title: Class Notes
 navlevel: header
 navtitle: class notes
-cover_url: https://source.unsplash.com/5mZ_M06Fc9g/1900x1200
-cover_meta: Photo by [Roman Mager](https://unsplash.com/@roman_lazygeek)
+cover_url: https://source.unsplash.com/ZC2DkQvOrcM/1900x1200
+cover_meta: Photo by [chuttersnap](https://unsplash.com/@chuttersnap)
 position: 300
 ---
+*Due to Columbia's server storage limits, it is only possible to host a few notes. I might scrap this page.*
 
 # Medicine
 - [Gastroenterology](http://columbia.edu/~rl2595/gi.html)
@@ -25,7 +26,7 @@ position: 300
 # Math
 - Algebra
 - Analysis
-- Topology
+- [Topology](https://drive.google.com/open?id=0B-2unwPWq7WuTnYzTExWRVdjSjA)
 - Calculus
 - Symbolic Logic
 - Statistics
@@ -38,6 +39,7 @@ position: 300
 - Natural Language Processing
 - Computer Systems
 - Object Oriented Programming
+- [Theory of Computation](https://drive.google.com/open?id=0B-2unwPWq7WudjRacWs4RzFMRWc)
 
 # Chemistry and Physics
 - Photography
