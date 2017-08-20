@@ -3,8 +3,8 @@ layout: page
 title: About
 navlevel: header
 navtitle: about
-cover_url: https://source.unsplash.com/Er8vHjj6HPo/1900x1200
-cover_meta: Photo by [Jacob Culp](https://unsplash.com/@jakeculp)
+cover_url: assets/img/philly.jpg
+cover_meta: Photo by [King of Hearts](https://commons.wikimedia.org/wiki/User:King_of_Hearts/Gallery)
 position: 1
 ---
 
