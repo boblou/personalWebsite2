@@ -7,7 +7,7 @@ cover_url: https://source.unsplash.com/ZC2DkQvOrcM/1900x1200
 cover_meta: Photo by [chuttersnap](https://unsplash.com/@chuttersnap)
 position: 300
 ---
-*Due to Columbia's server storage limits, it is only possible to host a few notes. I might scrap this page.*
+*Due to Columbia's storage limits, it is only possible to host a few notes. I might scrap this page.*
 
 # Medicine
 - [Gastroenterology](http://columbia.edu/~rl2595/gi.html)
