@@ -5,7 +5,7 @@ cover_url: https://source.unsplash.com/JbTBJYOEc28/1900x1200
 cover_meta: Photo by [Frank McKenna](https://unsplash.com/@frankiefoto)
 ---
 
-- [Orangish](/hobbies/photography/orange.html)
-- [Set of Vanishing Points](/hobbies/photography/vanishingpoints.html)
-- [Nighttime](/hobbies/photography/nighttime.html)
-- [Featuring Nature](/hobbies/photography/nature.html)
+- [Orangish]({{ site.baseurl }}/hobbies/photography/orange.html)
+- [Nighttime]({{ site.baseurl }}/hobbies/photography/nighttime.html)
+- [Set of Vanishing Points]({{ site.baseurl }}/hobbies/photography/vanishingpoints.html)
+- [ft. Nature]({{ site.baseurl }}/hobbies/photography/nature.html)

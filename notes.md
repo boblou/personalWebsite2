@@ -10,7 +10,7 @@ position: 300
 *Due to Columbia's storage limits, it is only possible to host a few notes. I might scrap this page.*
 
 # Medicine
-- [Gastroenterology](http://columbia.edu/~rl2595/gi.html)
+- [Gastroenterology]({{ site.baseurl }}/gi.html)
 - Neurology
 - Psychiatry
 - Endocrinology
@@ -24,20 +24,21 @@ position: 300
 - Psychology
 
 # Math
-- Algebra
-- Analysis
+- Abstract Algebra
+- Real Analysis
 - [Topology](https://drive.google.com/open?id=0B-2unwPWq7WuTnYzTExWRVdjSjA)
-- Calculus
+- Fourier Transform
 - Symbolic Logic
 - Statistics
 - Differential Equations
-- Graph Theory
+- Graph Theory and Counting
 
 # Computer Science
 - Data Structures and Algorithms
 - Machine Learning
 - Natural Language Processing
-- Computer Systems
+- Computer Architecture (MIPS)
+- Digital Circuits
 - Object Oriented Programming
 - [Theory of Computation](https://drive.google.com/open?id=0B-2unwPWq7WudjRacWs4RzFMRWc)
 

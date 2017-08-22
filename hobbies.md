@@ -7,12 +7,12 @@ position: 400
 ---
 
 <center><h1>
-	<a href="/hobbies/cooking.html">
+	<a href="{{ site.baseurl }}/hobbies/cooking.html">
 		Cooking</a>
 	•
-	<a href="/hobbies/photography.html">
+	<a href="{{ site.baseurl }}/hobbies/photography.html">
 		Photography</a>
 	•
-	<a href="/hobbies/music.html">
+	<a href="{{ site.baseurl }}/hobbies/music.html">
 		Music</a>
 </h1></center>

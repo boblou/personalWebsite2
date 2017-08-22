@@ -30,6 +30,6 @@ Siroky BJ, Reichert RJ, Lou R, Kathman E, Bissler JJ. (2012) Role of the Renin-A
 
 # Tensegrity
 
-Tensegrity is a structural principle wherein components are isolated from each other and held together by a net of continuous tension. The resulting structure has an ethereal quality that seems to defy gravity. I built such a structure, entitled *Arbor*, with twine and PVC pipe as seen below. A brief report about tensegrity can be found [here](/assets/docs/tensegrity.pdf).
+Tensegrity is a structural principle wherein components are isolated from each other and held together by a net of continuous tension. The resulting structure has an ethereal quality that seems to defy gravity. I built such a structure, entitled *Arbor*, with twine and PVC pipe as seen below. A brief report about tensegrity can be found [here]({{ site.baseurl }}/assets/docs/tensegrity.pdf).
 
-![Arbor by Robert Lou](/assets/img/tensegrity.jpg)
+![Arbor by Robert Lou]({{ site.baseurl }}/assets/img/tensegrity.jpg)
