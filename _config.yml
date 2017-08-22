@@ -1,8 +1,5 @@
 # UX Concerns
-# -disqus
 # -mathjax
-# -pathing concerns (baseurl)
-# -move photos locally
 #
 # -top border (typography.scss -> body)
 # -Remove link formatting on hobbies or not
