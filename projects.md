@@ -20,7 +20,7 @@ Yi J, Lou R, Bricoll J, Widen RH, Silbert S, Jerris RC. (2014) Detection of Carb
 
 # NeedSustenance
 
-[NeedSustenance](https://github.com/robert-lou/NeedSustenance) is a website I built that allows users to review restaurants and create collections of restaurants. It also allows the sharing of such reviews and collections. It uses the Ruby on Rails as the framework and MongoDB as the underlying database.
+[NeedSustenance](https://github.com/robert-lou/NeedSustenance) is a website I built that allows users to review restaurants and create collections of restaurants. It also allows the sharing of such reviews and collections. It uses Ruby on Rails as the framework and MongoDB as the underlying database.
 
 # Effects of Angiotensin II on TSC
 

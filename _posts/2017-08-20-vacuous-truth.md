@@ -5,7 +5,7 @@ tags: logic math curiosities
 cover_url: http://i.vimeocdn.com/video/358378611_1280x720.jpg
 ---
 
-Vacuous truths, the logic concept and not a nihilistic one, refers to a statement that is true because it is a statement about nothing. In my high school, there was a joke that our football team was the best in the state, the joke being that we had no football team. Another example is,
+The vacuous truth, a logic concept and not a nihilistic one, refers to a statement that is true because it is a statement about nothing. In my high school, there was a joke that our football team was the best in the state, the joke being that we had no football team. Another example is,
 
 > All the pigs in the sky are purple.
 
@@ -17,9 +17,9 @@ It seems strange that both statements could be true simultaneously, but there is
 
 Clearly, this is false, and thus the original statement about all pigs in the sky being purple must be true.
 
-This explanation seems reasonable, but perhaps not entirely satisfying. Let us consider a more practical example of a vacuous truth. Suppose I have a website that demands, for some reason, a user’s password be in all caps. Furthermore, suppose that this website is not a great one, and so I was able to create an account despite accidentally leaving password field blank. Then we must ask, does a blank password satisfy the property of being in all caps. Well, yes, but vacuously so. It certainly does not contain any non-capital characters.
+This explanation seems reasonable, but perhaps not entirely satisfying. Let us consider a more practical example of a vacuous truth. Suppose I have a website that demands, for some reason, a user’s password be in all caps. Furthermore, suppose that this website is not a great one, and so I was able to create an account despite accidentally leaving the password field blank. Then we must ask, does a blank password satisfy the property of being in all caps. Well yes, but vacuously so. It certainly does not contain any non-capital characters.
 
-Now let us consider a more realistic website that requires a user’s password contain a capital letter. When I try to create account with a blank password, the website gives me an error that there are no capital letters.
+Now let us consider a more realistic website that requires a user’s password contain a capital letter. When I try to create account with a blank password, the website gives me an error that there is not a capital letter in my password.
 
 So now, I have a password that is in all caps, yet does not contain a capital letter. Such a statement is illogical, and yet logical.
 
