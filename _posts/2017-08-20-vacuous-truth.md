@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Vacuous Truth
-tags: logic math curiosities
+tags: logic math
 cover_url: http://i.vimeocdn.com/video/358378611_1280x720.jpg
 ---
 
