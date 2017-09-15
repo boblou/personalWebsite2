@@ -3,7 +3,7 @@ layout: page
 title: Class Notes
 navlevel: header
 navtitle: class notes
-cover_url: https://source.unsplash.com/ZC2DkQvOrcM/1900x1200
+cover_url: https://source.unsplash.com/ZC2DkQvOrcM/
 cover_meta: Photo by [chuttersnap](https://unsplash.com/@chuttersnap)
 position: 300
 ---
@@ -44,7 +44,7 @@ position: 300
 
 # Chemistry and Physics
 - Photography
-- Food and Cooking
+- [Food and Cooking]({{ site.baseurl }}/food.html)
 - Chemistry
 - Mechanics
 - E&M
@@ -56,4 +56,3 @@ position: 300
 
 # Economics
 - Macroeconomics
-

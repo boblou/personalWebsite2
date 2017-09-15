@@ -3,7 +3,7 @@ layout: page
 title: Projects
 navlevel: header
 navtitle: projects
-cover_url: https://source.unsplash.com/OqtafYT5kTw/1900x1200
+cover_url: https://source.unsplash.com/OqtafYT5kTw/
 cover_meta: Photo by [Ilya Pavlov](https://unsplash.com/@ilyapavlov)
 position: 200
 ---

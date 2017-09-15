@@ -3,6 +3,11 @@
 [lang^="zh-Hant"] { line-height: 1.8; @include font-serif-zh-Hant; }
 [lang^="ja"]      { line-height: 1.8; @include font-serif-ja; }
 
+summary {
+  outline:none;
+  font-size:1.8em
+}
+
 body {
   color: $content-color;
   font-size: font-size();
