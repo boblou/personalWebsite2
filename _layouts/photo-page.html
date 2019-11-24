@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% include site-nav.html %}
+
+<article class="page" style="max-width:2000px" lang="{{ page.lang | default: site.lang | default: "en" }}" itemscope itemtype="http://schema.org/BlogPosting">
+  {% include header.html %}
+  <style>
+  	.wrapper {
+  		max-width: 1300px;
+  	}
+  </style>
+  <center>
+  	{{ content }}
+  </center>
+</article>
