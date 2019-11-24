@@ -17,6 +17,6 @@ title: Photography | Nighttime
 ![osaka]({{ site.baseurl }}/assets/img/osaka.jpg)
 
 ***
-![red light]({{ site.baseurl }}/assets/img/redlight.jpg)
+![wheel]({{ site.baseurl }}/assets/img/wheel.jpg)
 
 ***

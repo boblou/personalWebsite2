@@ -9,6 +9,7 @@
 
 # Command to build with disqus
 # JEKYLL_ENV=production bundle exec jekyll build
+# pw: kk
 
 #
 # This config file is meant for settings that affect your whole blog, values
