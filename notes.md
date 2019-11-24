@@ -7,9 +7,31 @@ cover_url: https://source.unsplash.com/ZC2DkQvOrcM/
 cover_meta: Photo by [chuttersnap](https://unsplash.com/@chuttersnap)
 position: 300
 ---
-*Due to Columbia's storage limits, it is only possible to host a few notes. I might scrap this page.*
+*Due to storage limits, it is only possible to host a few notes. I might scrap this page.*
+
+# Computer Science
+- Data Structures and Algorithms
+- Machine Learning
+- Natural Language Processing
+- Computer Architecture (MIPS)
+- Digital Circuits
+- Object Oriented Programming
+- [Theory of Computation](https://drive.google.com/open?id=0B-2unwPWq7WudjRacWs4RzFMRWc)
+
+# Mathematics
+- Abstract Algebra
+- Real Analysis
+- [Topology](https://drive.google.com/open?id=0B-2unwPWq7WuTnYzTExWRVdjSjA)
+- Fourier Transform
+- Symbolic Logic
+- Statistics
+- Differential Equations
+- Graph Theory and Counting
 
 # Medicine
+- Pulmonology
+- Nephrology
+- Cardiology
 - [Gastroenterology]({{ site.baseurl }}/gi.html)
 - Neurology
 - Psychiatry
@@ -23,36 +45,21 @@ position: 300
 - Biochemistry
 - Psychology
 
-# Math
-- Abstract Algebra
-- Real Analysis
-- [Topology](https://drive.google.com/open?id=0B-2unwPWq7WuTnYzTExWRVdjSjA)
-- Fourier Transform
-- Symbolic Logic
-- Statistics
-- Differential Equations
-- Graph Theory and Counting
-
-# Computer Science
-- Data Structures and Algorithms
-- Machine Learning
-- Natural Language Processing
-- Computer Architecture (MIPS)
-- Digital Circuits
-- Object Oriented Programming
-- [Theory of Computation](https://drive.google.com/open?id=0B-2unwPWq7WudjRacWs4RzFMRWc)
+# Business and Economics
+- Marketing
+- Microeconomics & Macroeconomics
+- Finance & Accounting
+- Management
 
 # Chemistry and Physics
 - Photography
 - [Food and Cooking]({{ site.baseurl }}/food.html)
 - Chemistry
 - Mechanics
-- E&M
+- Electricity & Magnetism
+- Astrophysics
 
 # Philosophy and Literature
 - Buddhism
 - Friendship
 - Contemporary Civilization
-
-# Economics
-- Macroeconomics
