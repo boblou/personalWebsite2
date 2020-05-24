@@ -1,4 +1,10 @@
-# -mathjax
+# https://www.xaprb.com/blog/how-to-style-images-with-markdown/
+# make images wide like theverge longform by default
+# have some markdown tag to make images inline
+# ![Kitten](/media/2018/08/kitten.jpg){:.thumbnail.bordered}
+# then test in your photo pages with some description
+# Implement colah’s blog features into my blog, featured posts
+
 # -top border (typography.scss -> body)
 # -Remove link formatting on hobbies or not
 # <style>
@@ -29,8 +35,8 @@ title: Robert Lou
 email: rlou@upenn.edu
 description: > # this means to ignore newlines until "baseurl:"
   Robert Lou's personal website.
-baseurl: "/~rl2595" # the subpath of your site, e.g. /blog
-url: "http://columbia.edu" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.robertlou.com" # the base hostname & protocol for your site, e.g. http://example.com
 color_scheme: github
 
 github_username: robert-lou
