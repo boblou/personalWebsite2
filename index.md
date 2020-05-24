@@ -5,9 +5,9 @@ navlevel: header
 navtitle: about
 cover_url: assets/img/philly.jpg
 cover_meta: Photo by [King of Hearts](https://commons.wikimedia.org/wiki/User:King_of_Hearts/Gallery)
-position: 1
----
+position: "1"
 
+---
 ![profile]({{ site.baseurl }}/assets/img/profile.png)
 {:.side-note}
 
