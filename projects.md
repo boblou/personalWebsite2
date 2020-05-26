@@ -10,17 +10,13 @@ position: 200
 
 # ARRTE Radiology Report Classifier
 
-The Automated Radiology Recommendation Tracking System, or ARRTE, is an automated system at Penn that tracks patients who have been given a follow-up recommendation based on radiological imaging. Under Dr. Tessa Cook, I built and trained a classifier to determine whether a radiology text report contained a follow-up recommendation. A log-linear model and natural language processing techniques were used.
-
-Lou R, Lalevic D, Chambers C, Zafar H, Cook T. *Automated Detection of Radiology Reports that Require Follow-up Imaging Using Natural Language Processing Feature Engineering and Machine Learning Classification.* [J Digit Imaging (2019)](https://dx.doi.org/10.1007/s10278-019-00271-7)
+The Automated Radiology Recommendation Tracking System, or ARRTE, is an automated system at Penn that tracks patients who have been given a follow-up recommendation based on radiological imaging. Under Dr. Tessa Cook, I developed a machine learning model to determine whether a radiology text report contained a follow-up recommendation.
 
 In the press: [Radiology Business](https://www.radiologybusiness.com/topics/imaging-informatics/ai-radiology-reports-follow-recommendations), [Health Imaging](https://www.healthimaging.com/topics/imaging-informatics/ai-detects-radiology-reports-requiring-follow-imaging)
 
 # Detecting Antibiotic Resistance with MALDI-TOF
 
 Matrix-assisted laser desorption/ionization - time of flight, or more succinctly MALDI-TOF, is a type of mass spectroscopy; essentially, a laser is used to ionize a sample which is then run through a time of flight mass spectrometer. I conducted research under Dr. Robert Jerris on antimicrobial susceptibility testing and blood culture identification using this technology. By recognizing hydrolyzed antibiotic peaks, it was possible to detect carbapennem resistant bacteria.
-
-Yi J, Lou R, Bricoll J, Widen RH, Silbert S, Jerris RC. *Detection of Carbapenemase Producing Organisms by Matrix Assisted-Laser Desorption Ionization-Time of Flight Mass Spectrometry.* Presented at the American Society for Microbiology ICAAC 2014
 
 # NeedSustenance
 
@@ -29,8 +25,6 @@ Yi J, Lou R, Bricoll J, Widen RH, Silbert S, Jerris RC. *Detection of Carbapenem
 # Effects of Angiotensin II on TSC
 
 Tuberous Sclerosis Complex, or TSC, is a genetic disease that causes tumors to grow in various areas of the body. It has been suggested clinically that blocking the renin-angiotensin system can slow disease progression. Under Dr. John Bissler, I investigated the effects of angiotensin II on a renal cell model of TSC by monitoring the cells' level of intracellular Ca2+ levels and VEGF release.
-
-Siroky B, Reichert R, Lou R, Kathman E, Lu L, Bissler J. *Role of the Renin- Angiotensin System in TSC Renal Angiomyolipoma Progression.* Presented at the American Society of Nephrology Renal Week 2012.
 
 # Tensegrity
 

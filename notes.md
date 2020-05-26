@@ -7,7 +7,6 @@ cover_url: https://source.unsplash.com/ZC2DkQvOrcM/
 cover_meta: Photo by [chuttersnap](https://unsplash.com/@chuttersnap)
 position: 300
 ---
-*Due to storage limits, it is only possible to host a few notes. I might scrap this page.*
 
 # Computer Science
 - Data Structures and Algorithms
@@ -32,9 +31,9 @@ position: 300
 
 # Medicine
 - Pulmonology
-- Nephrology
+- [Nephrology](/assets/docs/renal.html)
 - Cardiology
-- [Gastroenterology]({{ site.baseurl }}/gi.html)
+- Gastroenterology
 - Neurology
 - Psychiatry
 - Endocrinology
@@ -57,7 +56,7 @@ position: 300
 
 # Chemistry and Physics
 - Photography
-- [Food and Cooking]({{ site.baseurl }}/food.html)
+- [Food and Cooking](/assets/docs/food.html)
 - Chemistry
 - Mechanics
 - Electricity & Magnetism

@@ -3,12 +3,33 @@ layout: page
 title: About
 navlevel: header
 navtitle: about
-cover_url: assets/img/philly.jpg
-cover_meta: Photo by [King of Hearts](https://commons.wikimedia.org/wiki/User:King_of_Hearts/Gallery)
-position: "1"
+cover_url: assets/img/climbing.jpg
+position: 0
 
 ---
 ![profile]({{ site.baseurl }}/assets/img/profile.png)
 {:.side-note}
 
-Hello! My name is Robert Lou, but I go by Bob. I am a MD/MBA candidate at the University of Pennsylvania. Prior to medical + business school, I was a software engineer at MathWorks. And before that, I graduated from Columbia University with a degree in math and computer science. Naturally, I am broadly interested in the intersection of technology and medicine. My long term mission is to improve clinical medicine through artificial intelligence technologies. My resume can be found [here]({{ site.baseurl }}/assets/docs/resume.pdf).
+***
+
+# hi, i'm bob
+I find most things interesting, but I am particularly interested in the intersection of technology and medicine. My long term mission is to improve clinical medicine through artificial intelligence technologies.
+
+***
+
+Currently:
+- MD + MBA student at UPenn
+- Co-founder at [Clinarify](https://clinarify.com)
+- Product Manager Intern at Google
+
+And before that:
+- Software engineer at MathWorks
+- BA in Math and CS at Columbia University
+
+More formal version of the above [here]({{ site.baseurl }}/assets/docs/resume.pdf).
+
+
+
+
+
+
