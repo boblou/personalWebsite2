@@ -12,7 +12,7 @@ position: 0
 
 ***
 
-# hi, i'm bob
+# hi, i'm bob (he/him)
 I find most things interesting, but I am particularly interested in the intersection of technology and medicine. My long term mission is to improve clinical medicine through artificial intelligence technologies.
 
 ***
