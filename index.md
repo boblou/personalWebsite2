@@ -12,21 +12,25 @@ position: 0
 
 ***
 
-# hi, i'm bob (he/him)
-I find most things interesting, but I am particularly interested in the intersection of technology and medicine. My long term mission is to improve clinical medicine through artificial intelligence technologies.
+# Bob Lou · he/him
+I find most things interesting, but I am particularly interested in technology and medicine. My long term mission is to improve clinical medicine through artificial intelligence technologies.
 
 ***
 
-Currently:
+# Featured
+- [What is a Vacuous Truth?](/2019/11/20/vacuous-truth.html)
+- [Everything You Wanted to Know About Food and More](/assets/docs/food.html)
+- [Night Photography](/fun/photography/nighttime.html)
+
+# Bio in <200 char
+Currently, I am:
 - MD + MBA student at UPenn
-- Co-founder at [Clinarify](https://clinarify.com)
+- Co-founder at Clinarify
 - Product Manager Intern at Google
 
 And before that:
 - Software engineer at MathWorks
-- BA in Math and CS at Columbia University
-
-More formal version of the above [here]({{ site.baseurl }}/assets/docs/resume.pdf).
+- BA in Math and CS at Columbia
 
 
 
