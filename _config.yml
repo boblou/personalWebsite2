@@ -3,16 +3,8 @@
 # have some markdown tag to make images inline
 # ![Kitten](/media/2018/08/kitten.jpg){:.thumbnail.bordered}
 # then test in your photo pages with some description
-# Implement colah’s blog features into my blog, featured posts
 
 # -top border (typography.scss -> body)
-# -Remove link formatting on hobbies or not
-# <style>
-#   article a, article a:hover, article a:visited {
-#       border-bottom: 0px solid currentColor;
-#     }
-# </style>
-
 # Command to build with disqus
 # JEKYLL_ENV=production bundle exec jekyll build
 # pw: kk
@@ -31,16 +23,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Robert Lou
+title: Bob Lou
 email: rlou@upenn.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Robert Lou is a MD/MBA student at the University of Pennsylvania. This is his personal blog and website.
+  Robert "Bob" Lou is a MD/MBA student at the University of Pennsylvania. This is his personal blog and website.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.robertlou.com" # the base hostname & protocol for your site, e.g. http://example.com
 color_scheme: github
 
 github_username: robert-lou
 instagram_username: boboolou
+linkedin_username: robertlou
 disqus_shortname: rl2595
 
 # Build settings
