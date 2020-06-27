@@ -8,9 +8,13 @@ cover_meta: Photo by [Ilya Pavlov](https://unsplash.com/@ilyapavlov)
 position: 200
 ---
 
+# COVID-19 Drug Repurposing through Virtual Screening
+
+Virtual screening is the process of using computational models to estimate the likelihood of a ligand binding to a protein. In order to identify existing FDA approved drugs that can be used for COVID-19, we conduct a virtual screening by docking an FDA approved drugs dataset to COVID-19 proteins. Repurposing drugs that have been FDA approved allows for therapeutics to reach patients more quickly, as safety clinical trials have already been peformed.
+
 # ARRTE Radiology Report Classifier
 
-The Automated Radiology Recommendation Tracking System, or ARRTE, is an automated system at Penn that tracks patients who have been given a follow-up recommendation based on radiological imaging. Under Dr. Tessa Cook, I developed a machine learning model to determine whether a radiology text report contained a follow-up recommendation.
+The Automated Radiology Recommendation Tracking System, or ARRTE, is an automated system at Penn that tracks patients who have been given a follow-up recommendation based on radiological imaging. Under Dr. Tessa Cook, I developed a machine learning model to determine whether a radiology text report contained a follow-up recommendation. Current work is ongoing to use state of the art transformer models.
 
 In the press: [Radiology Business](https://www.radiologybusiness.com/topics/imaging-informatics/ai-radiology-reports-follow-recommendations), [Health Imaging](https://www.healthimaging.com/topics/imaging-informatics/ai-detects-radiology-reports-requiring-follow-imaging)
 
