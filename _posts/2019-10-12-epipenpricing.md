@@ -2,7 +2,7 @@
 layout: post
 title: EpiPen Price Hikes, PBMs, and ERISA
 tags: medicine
-cover_url: https://d1zukhgqhxzohs.cloudfront.net/wp-content/uploads/2017/05/EpiPens.jpg
+cover_url: https://live.staticflickr.com/7839/39736439253_8a4bc81410_b.jpg
 ---
 
 # Class Action Lawsuit against Mylan
