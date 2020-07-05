@@ -29,6 +29,7 @@ Currently, I am:
 - Product Manager Intern at Google
 
 And before that:
+- Medical informatics research at HUP Radiology
 - Software engineer at MathWorks
 - BA in Math and CS at Columbia
 
