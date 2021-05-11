@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>It&#39;s All About Perspective - Bob Lou</title>
+  <meta name="description" content="The photo of a railroad disappearing into the distance at a singular point is a classic image that demonstrates the intuitive notion that farther away object...">
+
+  
+  <link rel="stylesheet" href="/assets/styles/core.css?v=20210511090159">
+  <link rel="stylesheet" href="/assets/styles/fontello.css?v=20210511090159">
+  <link rel="stylesheet" href="/assets/styles/highlighting/github.css?v=20210511090159">
+
+  <link rel="canonical" href="https://boblou.github.io/2019/03/22/its-all-about-perspective.html">
+  <link rel="alternate" type="application/rss+xml" title="Bob Lou" href="/feed.xml">
+
+  
+
+  
+</head>
+
+  <body>
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <nav class="site-nav">
+  
+  
+  <a class="page-link" href="/" >about</a>
+  
+  <a class="page-link" href="/projects.html" >projects</a>
+  
+  <a class="page-link" href="/notes.html" >notes</a>
+  
+  <a class="page-link" href="/fun.html" >fun</a>
+  
+  <a class="page-link" href="/posts.html" >posts</a>
+  
+</nav>
+
+
+<article class="post" lang="en" itemscope itemtype="http://schema.org/BlogPosting" >
+
+  <header class="post-header">
+  <a class="site-title" href="/">Bob Lou</a>
+  <h1 class="post-title" itemprop="name headline">It&#39;s All About Perspective</h1>
+</header>
+
+
+<div class="post-cover" aria-label="Cover">
+  <div class="post-cover-wrapper">
+    <img src="https://source.unsplash.com/vCqmY3bfqfo/1900x1200" alt="" />
+  </div>
+  <div class="cover-meta"><p>Photo by <a href="https://unsplash.com/@tiagogerken">Tiago Gerken</a></p>
+</div>
+</div>
+
+
+
+  <div class="post-content" itemprop="articleBody">
+    <p>The photo of a railroad disappearing into the distance at a singular point is a classic image that demonstrates the intuitive notion that farther away objects appear smaller. We can be even more precise and say that the apparent size is directly proportional to the distance, that is, a ten foot tree will appear the same size as a twenty foot tree that is twice as far. Similarly, in the photo, we could count the pixels between the two rails and find a point <em>x</em>, where the track has narrowed by 50% compared to point <em>y</em>. <em>x</em>  would indicate a point that is twice as far as <em>y</em>. If we knew how far some point in the tracks was, we could calculate the distance of any other point along the tracks, just from a photo. There are other interesting properties to consider in the photo: we a see a singular vanishing point at which the parallel rails converge. I have drawn some boxes with one, two, and three such vanishing points.</p>
+
+<p><img src="/assets/img/perspective.png" alt="perepective" /></p>
+
+<p>The first box resembles the railroad track with one vanishing point. The second box’s edges, if extended, will converge to two vanishing points on the left and right. Finally, the third box’s edges converge at three vanishing points. An interesting question to consider is how many vanishing points are possible in a picture?</p>
+
+<p>To answer this question, consider any two parallel lines in the scene. If they go away from the viewer, they will become smaller and smaller, creating a vanishing point. You could imagine yourself having an infinitely long arm, and wherever you pointed your arm, you would create a vanishing point as your arm disappeared into the distance. Thus, with an infinite number of directions to point your arm, there are infinitely many possible vanishing points.</p>
+
+<p>This is perhaps surprising because the terms <em>one point perspective</em>, <em>two point perspective</em>, and <em>three point perspective</em> imply that the number of vanishing points is strictly dependent on the position of the viewer. But by placing a railroad track in your scene, you could add another vanishing point and so the number of vanishing points is also scene dependent.</p>
+
+<p>Now imagine that you are facing a long wall (the wall runs from East to West in front of you and you are facing North). Clearly, the East and West ends of the wall are farther from you than the bit of wall directly in front you, so would the wall appear to taper at the sides? If you photographed such a wall, would the walls be shorter on the sides?</p>
+
+<hr />
+
+<p>Images are produced by projecting a scene onto an image plane. In the images we have discussed, distant objects appear smaller, which is true to life. But what if I drew objects such that they always stayed the same size?</p>
+
+<p><img src="/assets/img/parallelprojection.png" alt="parallel" /></p>
+
+<p>There are four projections in the image. Notably, cubes farther away from the viewer are rendered with the same apparent size. A railroad in these images would not vanish to a point. In fact, we see that all parallel lines are preserved, and so there are no vanishing points. The fact that apparent size does not change with distance means that we could measure objects in the image accurately if we knew some distance in the image. Thus these projection are useful for maps and technical drawing. These projections, save for the top left “oblique” projection, are also equivalent to viewing a scene infinitely far away with infinite zoom. This makes sense as an object 1,000,000 feet away from you and the same object 1,000,000 + 1 feet away from you is only .0001% further away and thus .0001% apparently smaller. Where as an object 1 ft away from you appears half the size 1 + 1 ft away. In photography, zooming in has the effect of “flattening” an image, which we can now formally describe as preserving apparent size despite distance between objects.</p>
+
+  </div>
+
+  <footer class="post-footer">
+    <div class="post-meta">
+       <time datetime="2019-03-22T00:00:00-04:00" itemprop="datePublished">Mar 22, 2019</time> 
+      
+    </div>
+
+    
+    <ul class="post-tags" aria-label="TagList">
+      
+      <li><a class="tag-link" href="/tags/math.html">math</a></li>
+      
+      <li><a class="tag-link" href="/tags/photography.html">photography</a></li>
+      
+    </ul>
+    
+  </footer>
+
+  
+  <div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    this.page.url = 'https://boblou.github.io/2019/03/22/its-all-about-perspective.html';
+    this.page.identifier = 'https://boblou.github.io/2019/03/22/its-all-about-perspective.html';
+  };
+
+  (function() {
+    var d = document, s = d.createElement('script');
+
+    s.src = 'https://rl2595.disqus.com/embed.js';
+
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+  
+</article>
+
+    </div>
+    <script type="text/javascript">
+  (function () {
+    var resize = function () {
+      this.width = 0.5 * (this.naturalWidth || this.width);
+    }
+    Array.prototype.forEach.call(document.querySelectorAll(".half-size, .retina2x"), function(el) {
+      if (el.naturalWidth) {
+        resize.call(el);
+      } else {
+        el.onload = resize;
+      }
+    });
+  })();
+</script>
+
+  </main>
+
+  <footer class="site-footer">
+
+  <div class="wrapper">
+    <div class="social-links">
+      <a class="social-link social-linkedin" href="https://linkedin.com/in/boblou">
+        <i class="icon-linkedin"></i>
+      </a>
+      <a class="social-link social-instagram" href="https://instagram.com/boboolou">
+        <i class="icon-instagram"></i>
+      </a>
+      <a class="social-link social-github" href="https://github.com/boblou">
+        <i class="icon-github"></i>
+      </a>
+
+    </div>
+    <div class="credits">
+      &copy;
+      <script type="text/javascript">
+        document.write(new Date().getFullYear());
+      </script>
+      Robert Lou
+    </div>
+  </div>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</footer>
+
+
+</body>
+
+</html>

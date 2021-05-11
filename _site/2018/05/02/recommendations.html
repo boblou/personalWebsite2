@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Recommendation Systems - Bob Lou</title>
+  <meta name="description" content="What is a Recommendation System?">
+
+  
+  <link rel="stylesheet" href="/assets/styles/core.css?v=20210511090159">
+  <link rel="stylesheet" href="/assets/styles/fontello.css?v=20210511090159">
+  <link rel="stylesheet" href="/assets/styles/highlighting/github.css?v=20210511090159">
+
+  <link rel="canonical" href="https://boblou.github.io/2018/05/02/recommendations.html">
+  <link rel="alternate" type="application/rss+xml" title="Bob Lou" href="/feed.xml">
+
+  
+
+  
+</head>
+
+  <body>
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <nav class="site-nav">
+  
+  
+  <a class="page-link" href="/" >about</a>
+  
+  <a class="page-link" href="/projects.html" >projects</a>
+  
+  <a class="page-link" href="/notes.html" >notes</a>
+  
+  <a class="page-link" href="/fun.html" >fun</a>
+  
+  <a class="page-link" href="/posts.html" >posts</a>
+  
+</nav>
+
+
+<article class="post" lang="en" itemscope itemtype="http://schema.org/BlogPosting" >
+
+  <header class="post-header">
+  <a class="site-title" href="/">Bob Lou</a>
+  <h1 class="post-title" itemprop="name headline">Recommendation Systems</h1>
+</header>
+
+
+<div class="post-cover" aria-label="Cover">
+  <div class="post-cover-wrapper">
+    <img src="https://532386f9a72d1dd857a8-41058da2837557ec5bfc3b00e1f6cf43.ssl.cf5.rackcdn.com/wp-content/uploads/2016/01/IMG_0082-1024x768.png" alt="" />
+  </div>
+  <div class="cover-meta">
+</div>
+</div>
+
+
+
+  <div class="post-content" itemprop="articleBody">
+    <h1 id="what-is-a-recommendation-system">What is a Recommendation System?</h1>
+
+<p>At its core, a recommendation system is a function that takes user data as input and outputs that user’s predicted rating for a set of products. The process of creating this system is complex and the subject of much research, but an overview will be provided here.</p>
+
+<h2 id="acquiring-training-data">Acquiring Training Data</h2>
+<p>Before a machine learning algorithm can be trained, the user data must be collected first. This often takes the form of prior user stated preferences, such as prior ratings or what they clicked on. We can represent these preferences in a utility matrix</p>
+
+<p>Notably, the matrix is sparse, that is, many entries of the matrix will be empty since the majority of users have provided a preferences on a small fraction of potential product offerings. The goal of the recommendation system is to predict the missing values.</p>
+
+<p>Separately, we acquire data on each products features <script type="math/tex">X</script>, for example the price, genre of movie, or color.</p>
+
+<h2 id="training-the-classifier">Training the Classifier</h2>
+<p>A variety of classifier algorithms can be used, but for simplicity’s sake, let us use a linear regression. For a given user <script type="math/tex">u_i</script> we can fit a linear regression from product features <script type="math/tex">X</script> to that user’s rating for that product. These linear regression coefficients, the parameters, give us information about that user’s preference for features. Now we have some information about each user’s preferences in terms of features rather than products.</p>
+
+<h2 id="collaborative-filtering">Collaborative Filtering</h2>
+<p>While the prior step gave us a very rudimentary look into the user’s preferences, it does not exploit comparing one user to other users. If  two users preferences are similar to another, we can use that information to predict each other’s preferences. The process by which this is done is called collaborative filtering. First, we define a similarity metric, for example, the cosine distance between their preferences, to quantify the distance between two user’s preferences. We then predict a user’s preferences based on every other user’s preferences, weighted by similarity.</p>
+
+<p>Again, this is a gross oversimplification with many details and steps, like data pre-processing, having been left out. There are also a litany of other, more involved, methods to perform the same task.</p>
+
+<h1 id="applications">Applications</h1>
+<p>Predicting customer preferences is practically the essence of marketing, and so there is a wealth of applications in marketing. These systems are ubiquitous and are one of the most successful examples of machine learning in marketing. The most familiar and canonical examples are Netflix’s recommendations that fill a user’s personalized “home page” and Amazon’s recommended products, but nearly every website you use has some form of a recommendation system running, from online dating sites, to research journals, to financial services, and insurance products. Just about everything you can imagine…</p>
+
+<h2 id="the-long-tail">The Long Tail</h2>
+<p>The recommendation system becomes more important as company carries more products. By carrying more products, a company is able to capture the “long tail” of consumer preferences, that is, the products that consumers want that are not the most popular products. A company with only one product can only offer that single product which likely does not meet the complete demands of the market. As the number of differentiated products offered increases, the demands of the market are better met. Physical delivery systems are limited by physical limitations on how many SKUs they can offer, while online systems can offer a far greater number of SKUs. The long tail phenomenon describes the significance of the combined demand for all of the other non-popular SKUs which online systems can provide.</p>
+
+<p>Given that online systems can have an immense number of product offerings, for example YouTube offers billions of videos, it is imperative that companies have a computational method of determining what a consumer’s preferences are in order to best recommend a few products among many potential products.</p>
+
+<h2 id="segmentation">Segmentation</h2>
+<p>In some sense, the recommendation system is already a segmentation algorithm, but segmenting every single user into their own segment. Nonetheless, these recommendation systems can also be excellent as a method of clustering. By generating user’s preferences, it is easy to run segmentation algorithms to gain insights about the patterns of customers.</p>
+
+  </div>
+
+  <footer class="post-footer">
+    <div class="post-meta">
+       <time datetime="2018-05-02T00:00:00-04:00" itemprop="datePublished">May 2, 2018</time> 
+      
+    </div>
+
+    
+    <ul class="post-tags" aria-label="TagList">
+      
+      <li><a class="tag-link" href="/tags/math.html">math</a></li>
+      
+      <li><a class="tag-link" href="/tags/cs.html">cs</a></li>
+      
+    </ul>
+    
+  </footer>
+
+  
+  <div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    this.page.url = 'https://boblou.github.io/2018/05/02/recommendations.html';
+    this.page.identifier = 'https://boblou.github.io/2018/05/02/recommendations.html';
+  };
+
+  (function() {
+    var d = document, s = d.createElement('script');
+
+    s.src = 'https://rl2595.disqus.com/embed.js';
+
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+  
+</article>
+
+    </div>
+    <script type="text/javascript">
+  (function () {
+    var resize = function () {
+      this.width = 0.5 * (this.naturalWidth || this.width);
+    }
+    Array.prototype.forEach.call(document.querySelectorAll(".half-size, .retina2x"), function(el) {
+      if (el.naturalWidth) {
+        resize.call(el);
+      } else {
+        el.onload = resize;
+      }
+    });
+  })();
+</script>
+
+  </main>
+
+  <footer class="site-footer">
+
+  <div class="wrapper">
+    <div class="social-links">
+      <a class="social-link social-linkedin" href="https://linkedin.com/in/boblou">
+        <i class="icon-linkedin"></i>
+      </a>
+      <a class="social-link social-instagram" href="https://instagram.com/boboolou">
+        <i class="icon-instagram"></i>
+      </a>
+      <a class="social-link social-github" href="https://github.com/boblou">
+        <i class="icon-github"></i>
+      </a>
+
+    </div>
+    <div class="credits">
+      &copy;
+      <script type="text/javascript">
+        document.write(new Date().getFullYear());
+      </script>
+      Robert Lou
+    </div>
+  </div>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</footer>
+
+
+</body>
+
+</html>
