@@ -50,7 +50,10 @@ position: 300
 - Marketing
 - Microeconomics
 - Macroeconomics
+- Behavioral Economics
 - Finance
+- Operations
+- Strategy
 - Accounting
 - Management
 

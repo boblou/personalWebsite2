@@ -24,17 +24,11 @@ I find most things interesting, but I am particularly interested in technology a
 
 # Bio in <200 char
 Currently, I am:
-- MD + MBA student at UPenn
-- Co-founder at Clinarify
-- Product Manager Intern at Google
+- Product Manager at Google Cloud Healthcare and Life Sciences
 
 And before that:
+- MD/MBA at University of Pennsylvania
+- Co-founder at Clinarify
 - Medical informatics research at HUP Radiology
 - Software engineer at MathWorks
 - BA in Math and CS at Columbia
-
-
-
-
-
-
