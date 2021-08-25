@@ -16,13 +16,13 @@ position: 300
 - Computer Architecture (MIPS)
 - Digital Circuits
 - Object Oriented Programming
-- [Theory of Computation](https://drive.google.com/open?id=0B-2unwPWq7WudjRacWs4RzFMRWc)
+- [Theory of Computation](https://drive.google.com/file/d/1Zo1dxLgnjYy8tXzQnKYYm7U8IBnIQLh8/view?usp=sharing)
 - Web Development
 
 # Mathematics
 - Abstract Algebra
 - Real Analysis
-- [Topology](https://drive.google.com/open?id=0B-2unwPWq7WuTnYzTExWRVdjSjA)
+- [Topology](https://drive.google.com/file/d/1TdAY3yEFwQt8sgbADgwSdwRmBxReXWUn/view?usp=sharing)
 - Fourier Transform
 - Symbolic Logic
 - Statistics
@@ -51,7 +51,7 @@ position: 300
 - Microeconomics
 - Macroeconomics
 - Behavioral Economics
-- Finance
+- [Finance](https://drive.google.com/file/d/1dACjP9-iaMlkw-JGf1-U6ZtBmS0vG6rC/view?usp=sharing)
 - Operations
 - Strategy
 - Accounting
