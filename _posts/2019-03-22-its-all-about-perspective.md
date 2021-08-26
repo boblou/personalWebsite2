@@ -22,6 +22,6 @@ Now imagine that you are facing a long wall (the wall runs from East to West in 
 
 Images are produced by projecting a scene onto an image plane. In the images we have discussed, distant objects appear smaller, which is true to life. But what if I drew objects such that they always stayed the same size?
 
-![parallel]({{ site.baseurl }}/assets/img/parallelprojection.png)
+![parallel]({{ site.baseurl }}/assets/img/parallelProjection.png)
 
 There are four projections in the image. Notably, cubes farther away from the viewer are rendered with the same apparent size. A railroad in these images would not vanish to a point. In fact, we see that all parallel lines are preserved, and so there are no vanishing points. The fact that apparent size does not change with distance means that we could measure objects in the image accurately if we knew some distance in the image. Thus these projection are useful for maps and technical drawing. These projections, save for the top left "oblique" projection, are also equivalent to viewing a scene infinitely far away with infinite zoom. This makes sense as an object 1,000,000 feet away from you and the same object 1,000,000 + 1 feet away from you is only .0001% further away and thus .0001% apparently smaller. Where as an object 1 ft away from you appears half the size 1 + 1 ft away. In photography, zooming in has the effect of "flattening" an image, which we can now formally describe as preserving apparent size despite distance between objects.
