@@ -18,6 +18,7 @@ position: 300
 - Object Oriented Programming
 - [Theory of Computation](https://drive.google.com/file/d/1Zo1dxLgnjYy8tXzQnKYYm7U8IBnIQLh8/view?usp=sharing)
 - Web Development
+- Databases
 
 # Mathematics
 - Abstract Algebra
