@@ -14,6 +14,8 @@ Virtual screening is the process of using computational models to estimate the l
 
 # ARRTE Radiology Report Classifier
 
+<iframe src="https://www.youtube.com/watch?v=32vCvqpvHtI" frameborder="0" allowfullscreen></iframe>
+
 The Automated Radiology Recommendation Tracking System, or ARRTE, is an automated system at Penn that tracks patients who have been given a follow-up recommendation based on radiological imaging. Under Dr. Tessa Cook, I developed a machine learning model to determine whether a radiology text report contained a follow-up recommendation. Current work is ongoing to use state of the art transformer models.
 
 In the press: [Radiology Business](https://www.radiologybusiness.com/topics/imaging-informatics/ai-radiology-reports-follow-recommendations), [Health Imaging](https://www.healthimaging.com/topics/imaging-informatics/ai-detects-radiology-reports-requiring-follow-imaging)
