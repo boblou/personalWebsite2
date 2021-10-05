@@ -2,7 +2,7 @@
 layout: post
 title: A Vacuous Truth
 tags: logic math
-cover_url: https://i.vimeocdn.com/video/358378611_1280x720.jpg
+cover_url: https://upload.wikimedia.org/wikipedia/commons/a/ac/Geeste_-_Biener_Stra%C3%9Fe_-_Speicherbecken_-_Drachenfest_38_ies.jpg
 ---
 
 The vacuous truth, a logic concept and not a nihilistic one, refers to a statement that is true because it is a statement about nothing. In my high school, there was a joke that our football team was the best in the state, the joke being that we had no football team. Another example is,
